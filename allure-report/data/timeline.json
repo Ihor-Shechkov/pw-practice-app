@@ -1,0 +1,47 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "MacBook-Pro-Ihor.local",
+    "children" : [ {
+      "name" : "MacBook-Pro-Ihor.local-92992-playwright-worker-0",
+      "children" : [ {
+        "name" : "Parametrized methods",
+        "uid" : "f8d9f4b2a24d6d7e",
+        "parentUid" : "2f368d53497206fdf1560b7e575fb519",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718464914238,
+          "stop" : 1718464917444,
+          "duration" : 3206
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "Navigate to form page @smoke @block",
+        "uid" : "842a787930e9a786",
+        "parentUid" : "2f368d53497206fdf1560b7e575fb519",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718464910091,
+          "stop" : 1718464914236,
+          "duration" : 4145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "2f368d53497206fdf1560b7e575fb519"
+    } ],
+    "uid" : "7f3bed2935970ac1640ebcfc16dab313"
+  } ]
+}

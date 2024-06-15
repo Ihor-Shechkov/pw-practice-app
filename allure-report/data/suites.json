@@ -1,0 +1,47 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "chromium",
+    "children" : [ {
+      "name" : "tests/usePageObjects.spec.ts",
+      "children" : [ {
+        "name" : "Navigate to form page @smoke @block",
+        "uid" : "842a787930e9a786",
+        "parentUid" : "8cfa41f388c597f28491751381448753",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718464910091,
+          "stop" : 1718464914236,
+          "duration" : 4145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "Parametrized methods",
+        "uid" : "f8d9f4b2a24d6d7e",
+        "parentUid" : "8cfa41f388c597f28491751381448753",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718464914238,
+          "stop" : 1718464917444,
+          "duration" : 3206
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "8cfa41f388c597f28491751381448753"
+    } ],
+    "uid" : "36c900977e1d8b81a2c6893cc82bfc01"
+  } ]
+}

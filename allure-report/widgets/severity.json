@@ -1,0 +1,21 @@
+[ {
+  "uid" : "842a787930e9a786",
+  "name" : "Navigate to form page @smoke @block",
+  "time" : {
+    "start" : 1718464910091,
+    "stop" : 1718464914236,
+    "duration" : 4145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8d9f4b2a24d6d7e",
+  "name" : "Parametrized methods",
+  "time" : {
+    "start" : 1718464914238,
+    "stop" : 1718464917444,
+    "duration" : 3206
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
