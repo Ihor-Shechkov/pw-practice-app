@@ -3,6 +3,7 @@ import { PageManager } from '../page-objects/pageManager'
 import {NavigationPage} from '../page-objects/navigationPage'
 import {FormLayoutsPage} from '../page-objects/formLayoutsPage'
 import { DatePickerPage } from '../page-objects/datePickerPage'
+import { argosScreenshot } from "@argos-ci/playwright";
 // to add datagenerator we need to install faker library
 // run command: 'npm i @faker-js/faker --save-dev --force'
 import {faker} from '@faker-js/faker'
@@ -38,7 +39,9 @@ test('Parametrized methods', async ({page}) => {
 test('Testing with Argos CI', async ({page}) => {
     const pm = new PageManager(page)
     await pm.navigateTo().formLayoutsPage()
+    await argosScreenshot(page, "Forms layouts page")
     await pm.navigateTo().datepickerPage()
+    await argosScreenshot(page, "Datepicker page")
 })
 
 
